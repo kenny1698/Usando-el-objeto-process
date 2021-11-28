@@ -1,0 +1,20 @@
+<form  action="/login" method="post">
+    <div class="jumbotron" >
+        <h1 style="color:blue;">Login de Usuario</h1>
+        <br>
+
+
+    <div class="form-group">
+        <input id="username" class="form-control" type="text" name="username" required>
+        <input id="password" class="form-control" type="text" name="password" required>
+    </div>
+
+    {{!-- <button onclick="window.location='../index.html'" class="btn btn-success mt-3 mb-5" id="btnLogin">Enviar</button> --}}
+
+    {{!-- <button class="btn btn-success mt-3 mb-5" id="btnLogin">Enviar</button> --}}
+     <input class="btn btn-success mt-3 mb-5" type="submit" value="Login"/>
+
+     <button onclick="window.location.href = '/register'" class="btn btn-success mt-3 mb-5">Ir a Register</button>
+    </div>
+</form>
+
